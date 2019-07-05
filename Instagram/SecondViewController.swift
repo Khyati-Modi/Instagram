@@ -11,12 +11,14 @@ import Firebase
 import SideMenu
 
 
-class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UIGestureRecognizerDelegate {
     
     var db: Firestore!
     var itemArray = [UserInfo]()
     var readData : [String] = []
     var activityIndicator = UIActivityIndicatorView()
+    
+
     
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var collectionView: UICollectionView!
@@ -25,7 +27,7 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+       
         self.tableView.reloadData()
         
         tableView.delegate = self
@@ -36,6 +38,7 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
         tableView.register(UINib(nibName: "MyTableViewCell", bundle: nil), forCellReuseIdentifier: "MyTableViewCell")
     }
     
+  
     func getData(){
         let settings = FirestoreSettings()
         Firestore.firestore().settings = settings
@@ -99,6 +102,14 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
         cell.imageview.image = itemArray[indexPath.row].postImage
         return cell
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "GestureViewController") as!  GestureViewController
+      vc.image = itemArray[indexPath.row].postImage
+        navigationController?.pushViewController(vc, animated:true)
+    }
+
 }
 
 extension SecondViewController : UICollectionViewDelegate, UICollectionViewDataSource {

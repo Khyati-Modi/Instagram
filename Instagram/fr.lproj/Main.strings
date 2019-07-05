@@ -1,0 +1,39 @@
+
+/* Class = "UIButton"; normalTitle = "Upload Video"; ObjectID = "1UB-dI-qyW"; */
+"1UB-dI-qyW.normalTitle" = "Télécharger une video";
+
+/* Class = "UILabel"; text = "Khyati Modi"; ObjectID = "1fA-Wj-YPm"; */
+"1fA-Wj-YPm.text" = "Khyati Modi";
+
+/* Class = "UINavigationItem"; title = "Instagram"; ObjectID = "3iJ-5y-o8N"; */
+"3iJ-5y-o8N.title" = "Instagram";
+
+/* Class = "UINavigationItem"; title = "Your Profile "; ObjectID = "83O-Lb-KGw"; */
+"83O-Lb-KGw.title" = "Votre profil ";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "F45-pw-eZ9"; */
+"F45-pw-eZ9.normalTitle" = "Cancel";
+
+/* Class = "UINavigationItem"; title = "Create Post"; ObjectID = "G2z-Cq-81R"; */
+"G2z-Cq-81R.title" = "Annuler";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "L8F-tE-jvQ"; */
+"L8F-tE-jvQ.title" = "Article";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "Wdj-d7-vuE"; */
+"Wdj-d7-vuE.title" = "Article";
+
+/* Class = "UILabel"; text = "K"; ObjectID = "XF0-mA-AkA"; */
+"XF0-mA-AkA.text" = "K";
+
+/* Class = "UITabBarItem"; title = "First"; ObjectID = "acW-dT-cKf"; */
+"acW-dT-cKf.title" = "Premier";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "lAm-kg-fWt"; */
+"lAm-kg-fWt.title" = "Article";
+
+/* Class = "UIBarButtonItem"; title = "< Back"; ObjectID = "lTZ-d2-00y"; */
+"lTZ-d2-00y.title" = "< Retour";
+
+/* Class = "UIButton"; normalTitle = "Upload Image"; ObjectID = "wfr-6g-gFE"; */
+"wfr-6g-gFE.normalTitle" = "Télécharger une image";

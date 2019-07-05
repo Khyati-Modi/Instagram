@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Instagram/Base.lproj/Localizable.strings">
+   </FileRef>
+   <FileRef
       location = "group:Instagram.xcodeproj">
    </FileRef>
    <FileRef

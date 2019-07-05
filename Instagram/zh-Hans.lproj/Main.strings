@@ -1,0 +1,39 @@
+
+/* Class = "UIButton"; normalTitle = "Upload Video"; ObjectID = "1UB-dI-qyW"; */
+"1UB-dI-qyW.normalTitle" = "上传视频“";
+
+/* Class = "UILabel"; text = "Khyati Modi"; ObjectID = "1fA-Wj-YPm"; */
+"1fA-Wj-YPm.text" = "Khyati Modi";
+
+/* Class = "UINavigationItem"; title = "Instagram"; ObjectID = "3iJ-5y-o8N"; */
+"3iJ-5y-o8N.title" = "Instagram的";
+
+/* Class = "UINavigationItem"; title = "Your Profile "; ObjectID = "83O-Lb-KGw"; */
+"83O-Lb-KGw.title" = "你的个人资料";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "F45-pw-eZ9"; */
+"F45-pw-eZ9.normalTitle" = "取消";
+
+/* Class = "UINavigationItem"; title = "Create Post"; ObjectID = "G2z-Cq-81R"; */
+"G2z-Cq-81R.title" = "创建帖子";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "L8F-tE-jvQ"; */
+"L8F-tE-jvQ.title" = "项目";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "Wdj-d7-vuE"; */
+"Wdj-d7-vuE.title" = "项目";
+
+/* Class = "UILabel"; text = "K"; ObjectID = "XF0-mA-AkA"; */
+"XF0-mA-AkA.text" = "ķ";
+
+/* Class = "UITabBarItem"; title = "First"; ObjectID = "acW-dT-cKf"; */
+"acW-dT-cKf.title" = "第一";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "lAm-kg-fWt"; */
+"lAm-kg-fWt.title" = "项目";
+
+/* Class = "UIBarButtonItem"; title = "< Back"; ObjectID = "lTZ-d2-00y"; */
+"lTZ-d2-00y.title" = "< 背部";
+
+/* Class = "UIButton"; normalTitle = "Upload Image"; ObjectID = "wfr-6g-gFE"; */
+"wfr-6g-gFE.normalTitle" = "上传图片";

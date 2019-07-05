@@ -96,9 +96,9 @@ class MyTableViewCell: UITableViewCell {
                     self.readData.append(document.data()["Caption"] as! String)
                 }
             }
-//            self.tableView.reloadData()
         }
     }
+    
     override func awakeFromNib() {
         profileButton.layer.cornerRadius = 20
         profileButton.clipsToBounds = true

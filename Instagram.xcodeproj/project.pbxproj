@@ -15,6 +15,7 @@
 		42C5845E22CA11E100B076CE /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C5845D22CA11E100B076CE /* UserInfo.swift */; };
 		42C5846222CA2B2800B076CE /* AddPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C5846122CA2B2800B076CE /* AddPostViewController.swift */; };
 		42C5846422CA2BDF00B076CE /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C5846322CA2BDF00B076CE /* ThirdViewController.swift */; };
+		42DBB4A922CF42C0002DBB22 /* GestureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DBB4A822CF42C0002DBB22 /* GestureViewController.swift */; };
 		42E1FA3522C9D1D1008001D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E1FA3422C9D1D1008001D7 /* AppDelegate.swift */; };
 		42E1FA3722C9D1D1008001D7 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42E1FA3622C9D1D1008001D7 /* FirstViewController.swift */; };
 		42E1FA3C22C9D1D1008001D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42E1FA3A22C9D1D1008001D7 /* Main.storyboard */; };
@@ -33,6 +34,14 @@
 		42C5845D22CA11E100B076CE /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
 		42C5846122CA2B2800B076CE /* AddPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPostViewController.swift; sourceTree = "<group>"; };
 		42C5846322CA2BDF00B076CE /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		42DBB4A822CF42C0002DBB22 /* GestureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureViewController.swift; sourceTree = "<group>"; };
+		42DBB4B622CF79B8002DBB22 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		42DBB4B722CF79B8002DBB22 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		42DBB4B922CF7B91002DBB22 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		42DBB4BA22CF7C10002DBB22 /* hi-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "hi-IN"; path = "hi-IN.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		42DBB4BB22CF7C10002DBB22 /* hi-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "hi-IN"; path = "hi-IN.lproj/Main.strings"; sourceTree = "<group>"; };
+		42DBB4BC22CF7E12002DBB22 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		42DBB4BD22CF7E12002DBB22 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		42E1FA3122C9D1D1008001D7 /* Instagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42E1FA3422C9D1D1008001D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42E1FA3622C9D1D1008001D7 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +106,7 @@
 				42E1FA3622C9D1D1008001D7 /* FirstViewController.swift */,
 				42C5845722CA0BA200B076CE /* SecondViewController.swift */,
 				42C5846322CA2BDF00B076CE /* ThirdViewController.swift */,
+				42DBB4A822CF42C0002DBB22 /* GestureViewController.swift */,
 				428E8D5322CCB06E004C73C7 /* SideBarTableViewController.swift */,
 				42906A1022CDE05100109484 /* RatingControl.swift */,
 				42C5845D22CA11E100B076CE /* UserInfo.swift */,
@@ -258,6 +268,7 @@
 				42C5846422CA2BDF00B076CE /* ThirdViewController.swift in Sources */,
 				42C5845E22CA11E100B076CE /* UserInfo.swift in Sources */,
 				42C5846222CA2B2800B076CE /* AddPostViewController.swift in Sources */,
+				42DBB4A922CF42C0002DBB22 /* GestureViewController.swift in Sources */,
 				42E1FA3722C9D1D1008001D7 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +280,10 @@
 			isa = PBXVariantGroup;
 			children = (
 				42E1FA3B22C9D1D1008001D7 /* Base */,
+				42DBB4B722CF79B8002DBB22 /* fr */,
+				42DBB4B922CF7B91002DBB22 /* en */,
+				42DBB4BB22CF7C10002DBB22 /* hi-IN */,
+				42DBB4BD22CF7E12002DBB22 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -277,6 +292,9 @@
 			isa = PBXVariantGroup;
 			children = (
 				42E1FA4022C9D1D2008001D7 /* Base */,
+				42DBB4B622CF79B8002DBB22 /* fr */,
+				42DBB4BA22CF7C10002DBB22 /* hi-IN */,
+				42DBB4BC22CF7E12002DBB22 /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -288,6 +306,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -349,6 +368,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

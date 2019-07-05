@@ -55,6 +55,86 @@
             </objects>
             <point key="canvasLocation" x="1388" y="-311.69415292353824"/>
         </scene>
+        <!--Gesture View Controller-->
+        <scene sceneID="bMf-wG-y1a">
+            <objects>
+                <viewController storyboardIdentifier="GestureViewController" id="GnY-Ub-7yv" customClass="GestureViewController" customModule="Instagram" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LIZ-An-mHc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jhs-SK-l31">
+                                <rect key="frame" x="0.0" y="44" width="375" height="623"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="623" id="RPI-iw-xoR"/>
+                                    <constraint firstAttribute="width" secondItem="jhs-SK-l31" secondAttribute="height" multiplier="375:623" id="SFV-7z-UhV"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="ptp-VK-lVK" appends="YES" id="t58-9s-Z7S"/>
+                                    <outletCollection property="gestureRecognizers" destination="ivu-aw-Xki" appends="YES" id="V9T-yl-DDq"/>
+                                    <outletCollection property="gestureRecognizers" destination="hZe-PA-gwj" appends="YES" id="ISo-1l-3Xt"/>
+                                    <outletCollection property="gestureRecognizers" destination="bFL-mD-4RR" appends="YES" id="G1W-QV-k1q"/>
+                                </connections>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2m7-hq-8he">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="VwQ-rM-yDo"/>
+                                    <constraint firstAttribute="width" secondItem="2m7-hq-8he" secondAttribute="height" multiplier="375:44" id="sbr-dN-3qL"/>
+                                </constraints>
+                                <items>
+                                    <navigationItem id="Nbg-gS-SB7">
+                                        <barButtonItem key="leftBarButtonItem" title="&lt; Back" id="lTZ-d2-00y">
+                                            <connections>
+                                                <action selector="backButton:" destination="GnY-Ub-7yv" id="jV9-sM-pek"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="2m7-hq-8he" firstAttribute="trailing" secondItem="3nC-pd-f6A" secondAttribute="trailing" id="A3r-Qx-lmq"/>
+                            <constraint firstItem="jhs-SK-l31" firstAttribute="top" secondItem="2m7-hq-8he" secondAttribute="bottom" id="D3b-ov-aU9"/>
+                            <constraint firstItem="2m7-hq-8he" firstAttribute="top" secondItem="LIZ-An-mHc" secondAttribute="top" id="Ioe-oT-jfL"/>
+                            <constraint firstItem="jhs-SK-l31" firstAttribute="trailing" secondItem="3nC-pd-f6A" secondAttribute="trailing" id="OG8-aI-Rae"/>
+                            <constraint firstItem="jhs-SK-l31" firstAttribute="leading" secondItem="3nC-pd-f6A" secondAttribute="leading" id="XP0-1W-Npy"/>
+                            <constraint firstItem="2m7-hq-8he" firstAttribute="leading" secondItem="3nC-pd-f6A" secondAttribute="leading" id="ebe-kZ-t4Q"/>
+                            <constraint firstItem="jhs-SK-l31" firstAttribute="bottom" secondItem="3nC-pd-f6A" secondAttribute="bottom" id="iFh-8L-h7b"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="3nC-pd-f6A"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="jhs-SK-l31" id="Efv-ig-q7r"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yU6-om-Oew" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="ptp-VK-lVK">
+                    <connections>
+                        <action selector="handlePanWithRecognizer:" destination="GnY-Ub-7yv" id="zvU-MH-Wa9"/>
+                    </connections>
+                </panGestureRecognizer>
+                <pinchGestureRecognizer id="ivu-aw-Xki">
+                    <connections>
+                        <action selector="handlePinchWithRecognizer:" destination="GnY-Ub-7yv" id="XXe-O9-BJ4"/>
+                    </connections>
+                </pinchGestureRecognizer>
+                <rotationGestureRecognizer id="hZe-PA-gwj">
+                    <connections>
+                        <action selector="handleRotateWithRecognizer:" destination="GnY-Ub-7yv" id="dUn-PG-uTI"/>
+                    </connections>
+                </rotationGestureRecognizer>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="bFL-mD-4RR">
+                    <connections>
+                        <action selector="handleLongPressWithRecognizer:" destination="GnY-Ub-7yv" id="aM2-iF-tAT"/>
+                    </connections>
+                </pongPressGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="2245.5999999999999" y="-1150.0749625187407"/>
+        </scene>
         <!--Second View Controller-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
@@ -99,6 +179,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="284.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
+                                        <gestureRecognizers/>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -128,6 +209,7 @@
                                     </collectionView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="Ihs-fQ-UE5" secondAttribute="height" multiplier="183:38" id="Zb8-qE-nNB"/>
                                 </constraints>
@@ -153,10 +235,11 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="A5J-HN-Jx5"/>
             </objects>
             <point key="canvasLocation" x="3133.5999999999999" y="-1155.472263868066"/>
         </scene>
-        <!--Item-->
+        <!--View Controller-->
         <scene sceneID="PYp-CH-cvO">
             <objects>
                 <viewController id="bSC-1C-SEM" sceneMemberID="viewController">
@@ -166,7 +249,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="GnE-ok-A7B"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" image="search" selectedImage="search" id="Wdj-d7-vuE"/>
+                    <tabBarItem key="tabBarItem" title="" image="search" selectedImage="search" id="Wdj-d7-vuE"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iT5-4J-MMi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

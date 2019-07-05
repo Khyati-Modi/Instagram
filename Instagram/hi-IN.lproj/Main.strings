@@ -1,0 +1,39 @@
+
+/* Class = "UIButton"; normalTitle = "Upload Video"; ObjectID = "1UB-dI-qyW"; */
+"1UB-dI-qyW.normalTitle" = "विडियो को अॅॅपलोड करें";
+
+/* Class = "UILabel"; text = "Khyati Modi"; ObjectID = "1fA-Wj-YPm"; */
+"1fA-Wj-YPm.text" = "ख्याति मोदी";
+
+/* Class = "UINavigationItem"; title = "Instagram"; ObjectID = "3iJ-5y-o8N"; */
+"3iJ-5y-o8N.title" = "इंस्टाग्राम";
+
+/* Class = "UINavigationItem"; title = "Your Profile "; ObjectID = "83O-Lb-KGw"; */
+"83O-Lb-KGw.title" = "आपकी रूपरेखा";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "F45-pw-eZ9"; */
+"F45-pw-eZ9.normalTitle" = "रद्द करना";
+
+/* Class = "UINavigationItem"; title = "Create Post"; ObjectID = "G2z-Cq-81R"; */
+"G2z-Cq-81R.title" = "पोस्ट बनाएँ";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "L8F-tE-jvQ"; */
+"L8F-tE-jvQ.title" = "मद";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "Wdj-d7-vuE"; */
+"Wdj-d7-vuE.title" = "मद";
+
+/* Class = "UILabel"; text = "K"; ObjectID = "XF0-mA-AkA"; */
+"XF0-mA-AkA.text" = "कश्मीर";
+
+/* Class = "UITabBarItem"; title = "First"; ObjectID = "acW-dT-cKf"; */
+"acW-dT-cKf.title" = "प्रथम";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "lAm-kg-fWt"; */
+"lAm-kg-fWt.title" = "मद";
+
+/* Class = "UIBarButtonItem"; title = "< Back"; ObjectID = "lTZ-d2-00y"; */
+"lTZ-d2-00y.title" = "< वापस";
+
+/* Class = "UIButton"; normalTitle = "Upload Image"; ObjectID = "wfr-6g-gFE"; */
+"wfr-6g-gFE.normalTitle" = "तस्वीर डालिये";

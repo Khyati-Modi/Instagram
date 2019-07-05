@@ -73,6 +73,7 @@
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screenshot 2019-07-01 at 5.41.43 PM" translatesAutoresizingMaskIntoConstraints="NO" id="EVa-Cv-RuH">
                                 <rect key="frame" x="0.0" y="0.0" width="339" height="123"/>
+                                <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="123" id="Y35-fv-hIX"/>
                                     <constraint firstAttribute="width" secondItem="EVa-Cv-RuH" secondAttribute="height" multiplier="113:41" id="xDg-tY-6TG"/>
