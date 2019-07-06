@@ -68,6 +68,7 @@ class MyTableViewCell: UITableViewCell {
     }
     @IBAction func deletePost(_ sender: UIButton) {
         deleteFlag = 0
+        //what is this????????  asign zero to flag and comparing it to zero ?????????
         if deleteFlag == 0
         {
             db.collection("createPost").getDocuments { (querySnapshots, err) in
