@@ -84,13 +84,16 @@ class SideBarTableViewController: UITableViewController , MFMessageComposeViewCo
             do {
                 let credential = FacebookAuthProvider.credential(withAccessToken: AccessToken.current!.tokenString)
                 Auth.auth().currentUser?.link(with:credential,completion:nil)
+               //dont like this "try!" catch block will be unrechable so meaning of try keyword here
                 try! Auth.auth().signOut()
                 Auth.auth().signInAnonymously()
                 LoginManager().logOut()
             }
+           
             catch let signOutError as NSError {
                 print ("Error signing out: %@", signOutError)
             }
+           //user default is not required we can directly check which user is loged in or no user is loged in from firebase auth instance
             UserDefaults.standard.set(false, forKey: "LogIn")
             self.tabBarController?.navigationController?.popToRootViewController(animated: true)
             let vc = self.storyboard?.instantiateViewController(withIdentifier: "FirstViewController") as? FirstViewController

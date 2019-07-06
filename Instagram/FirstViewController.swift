@@ -58,6 +58,7 @@ class FirstViewController: UIViewController,LoginButtonDelegate {
         }
         
     }
+    //no need of logon button here no call to this function
     func loginButtonDidLogOut(_ loginButton: FBLoginButton) {
 //        UserDefaults.standard.set(false, forKey: "LogIn")
         print("Logged out")
