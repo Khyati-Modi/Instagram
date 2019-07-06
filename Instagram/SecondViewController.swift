@@ -16,6 +16,7 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
     var db: Firestore!
     var itemArray = [UserInfo]()
     var readData : [String] = []
+    //this variable is not used anywhere in this controller
     var activityIndicator = UIActivityIndicatorView()
     
 
@@ -50,6 +51,7 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
                 print("Error getting documents: \(err)")
             }
             else {
+                //i think svprogresshud will be simple to implement here instead of writing multiple line
                 self.activityIndicator.center = self.view.center
                 self.activityIndicator.hidesWhenStopped = true
                 self.activityIndicator.style = UIActivityIndicatorView.Style.gray
